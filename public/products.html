@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=""viewport" content="width=device-width", initial-scale="1.0">
+        <title>Marquee Rentals NZ</title>
+        <link rel="stylesheet" href="marquee.css">
+        
+    </head>
+<body>
+    <nav class="navbar background">
+    <u1 class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="/products.html">Product</a></li>
+       <li><a href="index.html">About us</a></li>
+       <li><a href="index.html">Contact Us</a></li>
+    </u1>
+</nav>
+<section class="background firstSection">
+    <div class="box-main" id="home" >
+        <div class="firstHalf">
+        <p class="text-big">Marquee Rentals</p><br/>
+        <p class="text-small">Marquee Rentals is a small family based business that provide tables, chairs, gazibos and other items for speacial occasions like wedding, birthday parties and other events</p></div>
+        <div class="secondHalf">
+        <img id="image" src="image/image2.jpeg" alt="Event pic" width="150px" height="150px"></div>
+</section>
+<section>
+    <form  class="productList" id="Product">
+        <fieldset class="details">
+         <legend><h2>Information</h2></legend>
+         <div class="checklist">
+            <h3 class="heading1">Product List</h3>
+                <input type="checkbox" id="tables" name="tables" value="table">
+            <label for="table"> Tables</label><br>
+            <input type="checkbox" id="chairs" name="chairs" value="chairs">
+            <label for="chairs"> Chairs</label><br>
+            <input type="checkbox" id="smallGazibos" name="smallGazibos" value="smallGazibos">
+            <label for="smallGazibos"> Small Gazibos</label><br>
+            <input type="checkbox" id="largeGazibos" name="largeGazibos" value="largeGazibos">
+            <label for="largeGazibos"> Large Gazibos</label><br>
+            <input type="checkbox" id="heater" name="heater" value="heater">
+            <label for="heater"> Heater</label><br>
+            <input type="checkbox" id="lights" name="lights" value="lights">
+            <label for="lights"> Lights</label><br>
+                </div><br><br>
+                <fieldset class="details">
+                    <legend><h2>Customer Details</h2></legend>
+         <div class="customerDetails">
+         <label class="label1" for="fname">First name</label>
+         <input class="form-data" type="text" id="fname" name="fname"><br><br>
+         <label class="label1" for="lname">Last name</label>
+         <input class="form-data" type="text" id="lname" name="lname"><br><br>
+         <label class="label1" for="email">Email  </label>
+         <input class="form-data" type="email" id="email" name="email"><br><br>
+         <label class="label1"  for="phoneNumber">Phone</label>
+         <input  class="form-data" type="phonenumber" id="phoneNumber" name="phoneNumber"><br><br>
+         <label class="label1" for="date">Date</label>
+         <input class="form-data" type="date" id="date" name="date"><br><br>
+         <label class="label1" for="loaction">Location</label>
+         <input class="form-data" type="loaction" id="location" name="location"><br><br>
+         <button id="btn1" onclick="sendData" >Submit</button>
+         </div> 
+                </fieldset>
+           
+                </fieldset>
+               
+            </form> 
+      
+</section>
+<script src="../public/javascript/marquee.js"></script>
+</body>
+
+</html>
