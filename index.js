@@ -1,5 +1,6 @@
 
 const express = require('express');
+var cors = require('cors');
 //const path=require("path");
 const mongoose=require('mongoose');
 const app= express();
@@ -10,7 +11,7 @@ const PORT=process.env.PORT||3000
 //const static_path=path.join(__dirname,"../index.html");
 //console.log(path.join(__dirname));
 //app.use(express.static(static_path));
-
+app.use(cors());
 //middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));

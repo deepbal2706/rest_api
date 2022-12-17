@@ -9,12 +9,12 @@ router.post('/',(req,res)=>{
          largeGazibos: req.body.largeGazibos,
         heater: req.body.heater,
         lights: req.body.lights,
-    firstName: req.body.userFirstName,
-    lastName: req.body.userLastName,
-    email: req.body.userEmail,
-    phone: req.body.userPhone,
-    date:req.body.eventDate,
-   location: req.body.eventLocation,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
+    email: req.body.email,
+    phone: req.body.phone,
+    date:req.body.date,
+   location: req.body.location,
 
     });
     product.save().then(product=>{

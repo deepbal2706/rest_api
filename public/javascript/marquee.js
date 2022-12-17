@@ -22,7 +22,7 @@ window.onload=function(){
           headers: {
             "Access-Control-Allow-Origin": "*",
             // "Accept": "application/json",
-           // "Content-Type": "application/json"
+            "Content-Type": "application/json"
           },
           body: JSON.stringify({
              tables:tables,
